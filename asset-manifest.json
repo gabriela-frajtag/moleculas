@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/molecule-game/static/css/main.77fc4019.css",
+    "main.js": "/molecule-game/static/js/main.01837920.js",
+    "static/js/488.1850e51c.chunk.js": "/molecule-game/static/js/488.1850e51c.chunk.js",
+    "index.html": "/molecule-game/index.html",
+    "main.77fc4019.css.map": "/molecule-game/static/css/main.77fc4019.css.map",
+    "main.01837920.js.map": "/molecule-game/static/js/main.01837920.js.map",
+    "488.1850e51c.chunk.js.map": "/molecule-game/static/js/488.1850e51c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77fc4019.css",
+    "static/js/main.01837920.js"
+  ]
+}
