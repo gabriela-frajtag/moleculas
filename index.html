@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IUPAC Guess</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🧪 IUPAC GUESS</h1>
+    <select id="lang-switcher">
+      <option value="pt">🇧🇷</option>
+      <option value="en">🇺🇸</option>
+    </select>
+  </header>
+
+  <main>
+    <div id="molecule-container">
+      <img src="molecule.png" alt="Molécula do dia" />
+    </div>
+
+    <div id="lives">
+      🧬🧬🧬🧬🧬🧬
+    </div>
+
+    <input type="text" id="iupac-input" placeholder="Digite o nome IUPAC..." />
+    <button onclick="checkAnswer()">Enviar</button>
+
+    <p id="feedback"></p>
+    <div id="fun-fact" style="display:none;"></div>
+  </main>
+
+  <footer>
+    <a href="#">Sobre</a> | <a href="#">Histórico</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
